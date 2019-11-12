@@ -10,6 +10,7 @@ ActiveDirectory is an ldapjs client for authN (authentication) and authZ (author
   - Automatic paging support (Active Directory results (MaxPageSize) limited to 1000 per request by default)
   - Recycle bin (tombstone) query support
   - Referral support
+  - Fixed ECONNREFUSED errors in original project (https://github.com/gheeres/node-activedirectory/issues/209)
 
 Required Libraries
 -----------
