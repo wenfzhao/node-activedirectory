@@ -25,14 +25,14 @@ Installation
 --------------
 
 ```sh
-npm install activedirectory
+npm install mm-activedirectory
 ```
 
 Usage
 --------------
 
 ```js
-var ActiveDirectory = require('activedirectory');
+var ActiveDirectory = require('mm-activedirectory');
 var config = { url: 'ldap://dc.domain.com',
                baseDN: 'dc=domain,dc=com',
                username: 'username@domain.com',
